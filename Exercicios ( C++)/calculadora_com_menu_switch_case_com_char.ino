@@ -21,7 +21,7 @@ void setup()
     Serial.println("(-) - Subtrair    ");
     Serial.println("(*) - Multiplicar ");  
     Serial.println("(/) - Dividir     ");  
-    Serial.println("Porfavor, lembre-se de nao deixar nenhum espaço no fim da linha");
+    Serial.println("Porfavor, lembre-se de nao deixar nenhum espaco no fim da linha");
     while (! Serial.available ());  
     escolha = Serial.read();
 
